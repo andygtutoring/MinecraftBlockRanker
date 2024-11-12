@@ -1,0 +1,51 @@
+/* blockRank.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+#add-row {
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-row:hover {
+  background-color: #ddd;
+}
+
+#add-row:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.remove-row {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-row:hover {
+  background-color: #e91e63;
+}

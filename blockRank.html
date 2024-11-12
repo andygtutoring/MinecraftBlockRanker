@@ -1,0 +1,30 @@
+<!-- blockRank.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Block Ranker</title>
+    <link rel="stylesheet" href="blockRank.css">
+  </head>
+  <body>
+    <h1>Minecraft Block Ranker</h1>
+    <table id="block-list">
+      <thead>
+        <tr>
+          <th>Block Name</th>
+          <th>Rank (1-10)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="text" class="block-name"></td>
+          <td><input type="number" min="1" max="10" class="block-rank"></td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="add-row">+</button>
+
+    <script src="blockRank.js"></script>
+  </body>
+</html>
